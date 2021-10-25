@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear ;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: block;
+   
+    /* background-image: url("pic.png");
+    background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background: linear-gradient(45deg,rgb(20, 20, 74),blue);
+}
+
+.container {
+    position: relative;
+    height: 37.5rem;
+    left: 0rem;
+}
+
+.header {
+    font-size: 2rem;
+    color: #87ebb8;
+}
+.header .task{
+    margin: 6px;
+    font-weight: 400;
+}
+
+.btn {
+    position: absolute;
+    top: 1.4rem;
+    right: 7rem;
+    
+}
+.btn:hover{
+    color: rgb(83, 79, 43);
+    cursor: pointer;
+}
+#data
+{   
+    margin: 35px;
+    background: linear-gradient(45deg,green, blue);
+    text-align: center;
+    justify-content: center;
+    display: flex;;
+}
+
+button {
+    color: black;
+    height: 2.2rem;
+    width: 6.25rem;
+    background-image: linear-gradient(black, white);
+    border-radius: 10px;
+}
+
+
+.table 
+
+{
+    width: 72rem;
+}
+
+
+table tr td:hover 
+{
+    background-color:yellowgreen;
+    cursor: pointer;
+}
+table {
+    color:#39ff14;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+}
+
+img 
+{
+    clip-path: circle();
+}
+
+footer 
+{   
+    text-align: center;
+    background:black;
+    color: aqua;
+    height: 22%;
+    bottom: -93px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.welcome 
+{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (max-width: 1104px) {
+    html {
+        font-size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 130%;
+        width: 100%;
+        height: 100%;
+    }
+    .header {
+        transform: scale(33%, 80px);
+    }
+}
+
+@media (max-width: 947px) {
+    html {
+        font-size: 100%;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 690px) {
+    html {
+        font-size: 80%;
+        width: 100%;
+        height: 100%;
+    }
+    button {
+        width: 120%;
+    }
+    footer {
+        bottom: -195px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 60%;
+        width: 100%;
+        height: 150%;
+    }
+    button {
+        width: 130%;
+    }
+    footer {
+        bottom: -390px;
+    }
+}
+
+@media (max-width: 360px) {
+    html {
+        font-size: 45%;
+        width: 100%;
+        height: 180%;
+    }
+    .task {
+        font-size: 20px;
+    }
+    .table {
+        width: fit-content;
+    }
+    button {
+        width: 130%;
+    }
+    footer {
+        width: 120%;
+        font-size: 100%;
+        bottom: -367px;
+    }
+}
